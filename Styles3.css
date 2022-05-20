@@ -1,0 +1,173 @@
+/*
+font-family: 'Rampart One', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rock 3D', cursive;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Stick No Bills', sans-serif;
+font-family: 'Syne Mono', monospace;
+font-family: 'Tourney', cursive;
+font-family: 'Zen Dots', cursive;
+font-family: 'Zen Tokyo Zoo', cursive;
+font-family: 'Oleo Script Swash Caps', monospace;
+font-family: 'Kanit', sans-serif;
+*/
+
+.body{
+    background-color: #1d8876b6;
+    
+}
+.circulo{
+border-radius: 50%;
+}
+
+
+#menu a{
+    font-family: 'Syne Mono', monospace;;
+}
+
+.linea{
+    position: relative;
+    color: #213b2149;
+    font-family: 'Syne Mono', monospace;
+}
+.linea::after, .linea::before{
+    content: '';
+    position: absolute;
+    width: 10vw;
+    height: 3px;
+    top:0.6em;
+    border: #213b21;
+    border: 2px dashed;
+
+}
+.linea::before{
+    left: -12vw;
+}
+.linea::after{
+    right: -12vw;
+}
+
+.tip0{
+    font-family: 'Rubik Glitch', cursive;
+    justify-content: center;
+    align-self: center;
+    font-size: 5vw;
+
+}
+.tip1{
+    font-family: 'Syne Mono', monospace;
+    color: #8b8b8b;
+
+}
+.tip2{
+    font-family: 'Rubik Glitch', cursive;
+    justify-content: center;
+    align-self: center;
+
+
+}
+.tip3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #83cca1; 
+}
+.tip4{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.tip5{
+    font-family: 'Roboto Mono', monospace;
+    color: #ced3cc;
+}
+
+form #Syne {
+    font-family: 'Syne Mono', monospace;
+    
+}
+.Syne {
+    font-family: 'Syne Mono', monospace;
+}
+#logo{
+    
+    min-width: 5rem;
+    transform: rotate(44deg);
+}
+hr{
+    border: 2px dashed #213b21 !important;
+    border-radius: 2vh !important;
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+}
+
+@media screen and (min-width:0px){
+    *{
+        color:rgb(82, 81, 81);
+        font-family: 'Manrope', sans-serif; 
+        padding: 0;
+        margin:0;
+    }
+    .HomeInfo{
+        background: #838683;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        align-self: baseline !important;
+        width: 100%;
+
+    }
+    .item{
+        margin: 1%;
+        padding: 1%;
+        background: rgb(38, 163, 126);
+        border-radius: 10vw;
+        text-align: center !important;
+        
+    }
+    .grande{
+        font-size: 200vw;
+    }
+    .nav{
+            background: rgb(131, 134, 131);
+            margin: 2%;
+            padding: 1%;
+            text-align: center;
+            justify-content: center;
+
+            width: 100%;
+            border-radius: 15vw;
+    }
+    .grey{
+        background-color: rgb(54, 54, 54);
+    }
+}
+@media screen and (min-width:0px) and (max-width:732) {
+    .tip0{
+        font-family: 'Rubik Glitch', cursive;
+        justify-content: center;
+        align-self: baseline;
+        font-size: 30vw ;
+    
+    }
+    .logo{
+        justify-self: center;
+    }
+}
+
+@media (max-width:1000px) {
+    #intro{
+        width:90% !important;
+    }
+    .Equipo-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    hr{
+        margin-left: 5vw !important;
+        margin-right: 5vw !important;
+    }
+
+}
